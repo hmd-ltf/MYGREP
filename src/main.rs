@@ -9,4 +9,5 @@ fn main() {
 
     let contents = fs::read_to_string(filename).expect("File not Found");
     println!("{}" , contents);
+    
 }
